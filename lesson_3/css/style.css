@@ -1,0 +1,68 @@
+.company {
+	color: darkmagenta;
+}
+.branches{
+	color: darkturquoise;
+}
+
+.review {
+	color: blue;
+}
+
+span.name {
+	color: deeppink;
+}
+
+.maintext {
+	color: cadetblue;
+}
+
+.year,
+.number {
+	color: orangered;
+}
+
+.title{
+	color: navy;
+}
+
+.direction.problems{
+	color: darkgrey;
+}
+
+
+.research~p{
+	color: #25df7c;
+}
+
+.step .laboratory{
+	color: darkslateblue;
+}
+
+.research>p{
+	color: darkmagenta;
+}
+
+.laboratory * {
+	color: hotpink;
+}
+
+
+.logo p{
+	color: lightpink;
+}
+.leadership {
+}
+
+
+.linktolist {
+	color: #25df7c;
+}
+
+.patents .list {
+	color: goldenrod;
+}
+
+.leadership p{
+	color: lightsteelblue;
+}
