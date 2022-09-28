@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,1000;1,400&family=Oswald&display=swap');
+
+@font-face {
+	font-family: "JunegullRegular";
+	src: url("../fonts/JunegullRegular.woff2") format("woff2"), url("../fonts/JunegullRegular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+/*_____HEADER_____*/
+
+body{
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: justify;
+	background-color: rgb(237, 232, 216);
+	padding: 50px;
+}
+
+.title, h1 {
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 50px;
+	line-height: 3;
+	color: rgb(249, 249, 249);
+	text-align: center;
+	background-color: rgb(214, 52, 12);
+	text-shadow: 2px 2px 5px #000;
+}
+
+.titleh {
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	background-color:rgb(243, 185, 225);
+	text-decoration: underline;
+	padding: 30px 20px 30px 20px;
+	text-align: center;
+	text-shadow: 2px 2px 5px #000;
+}
+
+.header-block {
+	text-align: center;
+   margin-bottom: 0px;
+}
+
+
+/*_____MAIN_____*/
+
+.letter {
+	font-family: "JunegullRegular", sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.5;
+	color: rgb(214, 52, 12);
+	text-shadow: 2px 2px 5px #000;
+	margin-bottom: 30px;
+}
+
+.letter1 {
+	text-decoration: overline;
+	line-height: 2;
+}
+
+.letter2 {
+	text-decoration: overline;
+	line-height: 2;
+	text-align: justify;
+}
+
+.letter3 {
+	font-style: italic;
+	line-height: 2;
+	text-align: center;
+	text-decoration: line-through;
+}
+
+.letter4 {
+	font-style: oblique;
+	line-height: 2;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.letter5 {
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 2;
+	white-space: nowrap;
+}
+
+.letter6 {
+	letter-spacing: 7px;
+	text-indent: 20px;
+	line-height: 2;
+}
+
+.letter7 {
+	text-transform: lowercase;
+	text-indent: 20px;
+	text-align: right;
+	word-spacing: 30px;	
+}
+
+.even{
+	background-color:rgb(249, 249, 249);
+}
+
+.inline {
+	text-align: right;
+}
+
+/*_____FOOTER_____*/
+
+.block {
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 3;
+	color: rgb(249, 249, 249);
+	text-align: center;
+	background-color: rgb(214, 52, 12);
+	text-shadow: 2px 2px 5px #000;
+}
+
+.dotcomma {
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 2;
+	color: rgb(249, 249, 249);
+	text-align: center;
+	background-color:rgb(243, 185, 225);
+	text-shadow: 2px 2px 5px #000;
+	width: 700px;
+	margin: 0px 270px 0px 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
