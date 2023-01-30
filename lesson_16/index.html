@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container"></div>
+		</header>
+
+
+		<main class="page">
+			<div class="page__container">
+				<div class="page__block">
+					<div class="block__image">
+						<img src="img/illust.svg" alt="illustration">
+					</div>
+					<div class="block__questions questions">
+						<div class="questions__content content">
+							<h3 class="content__subtitle">ANY QUESTIONS?</h3>
+							<h2 class="content__title">Drop us a line</h2>
+						</div>
+						<form class="questions__forms" action="https://jsonplaceholder.typicode.com/posts" method="post">
+							<div class="fill-forms">
+								<div class="fill-forms__first-name">
+									<label for="first-name" class="fill-contacts__label">First Name*</label>
+									<input class="fill-forms__input" tabindex="1" required id="first-name" autocomplete="off"
+										name="first-name" type="text" placeholder="Your first name">
+								</div>
+								<div class="fill-forms__last-name">
+									<label for="last-name" class="fill-contacts__label">Last Name*</label>
+									<input class="fill-forms__input" tabindex="2" required id="last-name" autocomplete="off"
+										name="last-name" type="text" placeholder="Your last name">
+								</div>
+								<div class="fill-forms__email">
+									<label for="email" class="fill-contacts__label">Email*</label>
+									<input class="fill-forms__input" tabindex="3" required id="email" autocomplete="off"
+										name="email" type="email" placeholder="Your working email">
+								</div>
+								<div class="fill-forms__phone">
+									<label class="fill-contacts__label" for="phone">Phone*</label>
+									<input class="fill-forms__input" tabindex="4" required id="phone" autocomplete="off"
+										name="phone" type="tel" placeholder="Your phone number">
+								</div>
+								<div class="fill-forms__message">
+									<label for="message" class="fill-contacts__label">Message*</label>
+									<textarea class="fill-forms__type-message" autocomplete="off" name="message" required
+										id="message" placeholder="Your message"></textarea>
+								</div>
+							</div>
+							<div class="field__send">
+								<div class="send__checkbox">
+									<input type="checkbox" id="checkbox" value="yes" name="confirm" class="checkbox__input">
+									<label for="checkbox" class="checkbox__label">
+										<span class="checkbox__text">I agree to receive communications from Createx Online
+											School</span>
+									</label>
+								</div>
+								<button class="send__button button" type="submit">
+									<span>Send message</span>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+
+
+
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
